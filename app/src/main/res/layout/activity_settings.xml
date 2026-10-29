@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121B22"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yara AI Memory &amp; API Settings"
+            android:textColor="#00A884"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Your Preferred Name"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8696A0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Multi-API Failover Pool (4 Slots)"
+            android:textColor="#00A884"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etKey0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="API Key Slot 1"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8696A0" />
+
+        <EditText
+            android:id="@+id/etKey1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="API Key Slot 2"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8696A0" />
+
+        <EditText
+            android:id="@+id/etKey2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="API Key Slot 3"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8696A0" />
+
+        <EditText
+            android:id="@+id/etKey3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="API Key Slot 4"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8696A0" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#00A884"
+            android:text="Save All Configuration"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
